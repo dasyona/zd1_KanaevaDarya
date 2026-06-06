@@ -1,0 +1,7 @@
+C:\Users\home\OneDrive\Desktop\DIVA\UP\UP\bin\Debug\UP.exe.config
+C:\Users\home\OneDrive\Desktop\DIVA\UP\UP\bin\Debug\UP.exe
+C:\Users\home\OneDrive\Desktop\DIVA\UP\UP\bin\Debug\UP.pdb
+C:\Users\home\OneDrive\Desktop\DIVA\UP\UP\obj\Debug\UP.csproj.AssemblyReference.cache
+C:\Users\home\OneDrive\Desktop\DIVA\UP\UP\obj\Debug\UP.csproj.CoreCompileInputs.cache
+C:\Users\home\OneDrive\Desktop\DIVA\UP\UP\obj\Debug\UP.exe
+C:\Users\home\OneDrive\Desktop\DIVA\UP\UP\obj\Debug\UP.pdb
