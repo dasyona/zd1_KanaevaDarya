@@ -1,0 +1,92 @@
+﻿<Window x:Class="Playlist_Kanaeva.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Playlist_Kanaeva"
+        mc:Ignorable="d"
+        Title="плейлист" Height="550" Width="450">
+
+    <DockPanel>
+        
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Добавить песню" Click="MenuItem_AddSong_Click">
+                    <MenuItem.Icon>
+                        <TextBlock Text="!!!" Margin="5,0"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Выход" Click="MenuItem_Exit_Click">
+                    <MenuItem.Icon>
+                        <TextBlock Text="Х" Margin="5,0"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Плейлист">
+                <MenuItem Header="Очистить всё" Click="BtnClear_Click"/>
+                <MenuItem Header="В начало" Click="BtnStart_Click"/>
+                <MenuItem Header="Очистить по значению" Click="MenuItem_RemoveName_Click"/>
+                <Separator/>
+                <MenuItem Header="Предыдущая" Click="BtnPrev_Click"/>
+                <MenuItem Header="Следующая" Click="BtnNext_Click"/>
+            </MenuItem>
+           
+        </Menu>
+
+        <Grid Margin="10" Background="#FFFFE2F6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="Auto" MinHeight="89.21"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="плейлист" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10" Width="110" Foreground="#FFAD1D8D"/>
+
+            <ListBox Grid.Row="1" Name="lstTracks" Margin="0,5,0,5" SelectionChanged="LstTracks_SelectionChanged" Foreground="White">
+                <ListBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFA5004C"/>
+                        <GradientStop Color="#FFFF85BD" Offset="1"/>
+                    </LinearGradientBrush>
+                </ListBox.Background>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding Author}" FontWeight="Bold" Width="120"/>
+                            <TextBlock Text=" - " />
+                            <TextBlock Text="{Binding Title}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Border Grid.Row="2" Background="#FFFFB6E8" Padding="10" Margin="0,5,0,5" CornerRadius="5">
+                <StackPanel>
+                    <TextBlock Text="Сейчас играет:" FontWeight="Bold" Margin="0,0,0,5"/>
+                    <TextBlock Name="txtCurrentSong" FontSize="14"/>
+                    <TextBlock Name="txtCurrentIndex" FontSize="11" Foreground="Gray" Margin="0,5,0,0"/>
+                </StackPanel>
+            </Border>
+
+            <WrapPanel Grid.Row="3" Margin="0,10,0,0" HorizontalAlignment="Center" Width="430">
+                <WrapPanel.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFB51960"/>
+                        <GradientStop Color="#FFFF87BE" Offset="1"/>
+                    </LinearGradientBrush>
+                </WrapPanel.Background>
+                <Button Name="btnPrev" Content="Предыдущая" Width="100" Margin="5" Click="BtnPrev_Click"/>
+                <Button Name="btnNext" Content="Следующая" Width="100" Margin="5" Click="BtnNext_Click"/>
+                <Button Name="btnStart" Content="В начало" Width="90" Margin="5" Click="BtnStart_Click"/>
+                <Button Name="btnClear" Content="Очистить всё" Width="100" Margin="5" Click="BtnClear_Click"/>
+            </WrapPanel>
+
+            <WrapPanel Grid.Row="3" Margin="0,50,0,0" HorizontalAlignment="Center" Width="290">
+                <Button Name="btnAddDemo" Content="Добавить демо-песни" Width="140" Margin="5" Click="BtnAddDemo_Click"/>
+                <Button Name="btnRemoveSelected" Content="Удалить текущую" Width="130" Margin="5" Click="BtnRemoveSelected_Click"/>
+            </WrapPanel>
+        </Grid>
+    </DockPanel>
+</Window>

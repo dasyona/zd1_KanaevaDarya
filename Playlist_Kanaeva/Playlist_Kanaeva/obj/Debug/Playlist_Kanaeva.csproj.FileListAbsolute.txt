@@ -1,0 +1,15 @@
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\bin\Debug\Playlist_Kanaeva.exe.config
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\bin\Debug\Playlist_Kanaeva.exe
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\bin\Debug\Playlist_Kanaeva.pdb
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\Playlist_Kanaeva.csproj.AssemblyReference.cache
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\MainWindow.g.cs
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\App.g.cs
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\Playlist_Kanaeva_MarkupCompile.cache
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\Playlist_Kanaeva_MarkupCompile.lref
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\MainWindow.baml
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\Playlist_Kanaeva.g.resources
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\Playlist_Kanaeva.Properties.Resources.resources
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\Playlist_Kanaeva.csproj.GenerateResource.cache
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\Playlist_Kanaeva.csproj.CoreCompileInputs.cache
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\Playlist_Kanaeva.exe
+C:\Users\home\OneDrive\Desktop\DIVA\Playlist_Kanaeva\Playlist_Kanaeva\obj\Debug\Playlist_Kanaeva.pdb
